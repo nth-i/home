@@ -4,21 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nth‑i Datalab | Nth‑Level Data Analytics & AI</title>
+  <link rel="icon" type="image/x-icon" href="nthi_favicon.ico">
   <meta name="description" content="Nth‑i Datalab delivers advanced data analytics, AI, and business intelligence to unlock nth‑level insights." />
   <style>
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:#f8fafc; color:#0f172a; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:linear-gradient(135deg,#3b82f6,#10b981); color:#0f172a; }
     h1,h2,h3 { margin:0; }
     section { padding:80px 24px; }
     .container { max-width:1200px; margin:auto; }
     .hero { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; }
-    .badge { color:#059669; }
+    .badge { color:yellowgreen; }
     .btn { padding:14px 28px; border-radius:16px; border:none; cursor:pointer; font-weight:600; }
     .btn-primary { background:#0f766e; color:white; }
     .btn-outline { background:white; border:2px solid #0f766e; color:#0f766e; }
     .grid { display:grid; gap:24px; }
     .grid-4 { grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); }
     .card { background:white; padding:28px; border-radius:20px; box-shadow:0 4px 12px rgba(0,0,0,.05); }
-    .gradient-box { height:280px; border-radius:24px; background:linear-gradient(135deg,#3b82f6,#10b981); }
+    .gradient-box { height:180px; image-rendering: auto ; background-image: url("nthi_banner.png"); background-repeat:no-repeat ; border-radius:24px; border: double;}
     .center { text-align:center; }
     .contact { background:linear-gradient(135deg,#2563eb,#059669); color:white; }
     input,textarea { padding:14px; border-radius:14px; border:none; width:100%; }
@@ -35,7 +36,7 @@
         <h1 style="font-size:48px; line-height:1.2;">
           Turning Data into <span class="badge">Nth‑Level Insights</span>
         </h1>
-        <p style="margin-top:24px; font-size:18px; color:#475569;">
+        <p style="margin-top:24px; font-size:18px; color:palegoldenrod;">
           Nth‑i Datalab helps organizations mine, model, and multiply value from data using advanced analytics and AI‑driven intelligence.
         </p>
         <div style="margin-top:32px; display:flex; gap:16px; flex-wrap:wrap;">
@@ -89,11 +90,13 @@
     <div class="container center" style="max-width:700px;">
       <h2 style="font-size:36px;">Talk to Our Experts</h2>
       <p style="margin-top:12px;">Tell us about your data challenges</p>
-      <form style="margin-top:40px; display:grid; gap:16px;">
-        <input placeholder="Your Name" />
-        <input placeholder="Email Address" />
-        <textarea rows="4" placeholder="How can we help?"></textarea>
-        <button class="btn btn-primary">Submit</button>
+      <form action="mailto:jeya.selvakumar@nth-i.com" method="post" enctype="text/plain" style="margin-top:40px; display:grid; gap:16px;">
+        <input type="text" id="name" placeholder="Your Name" />
+        <input type="email" id="address" placeholder="Email Address" />
+        <input type="text" id="name1" placeholder="My Name" />
+        <textarea rows="4" type="text" id="message" placeholder="How can we help?"></textarea>
+        <input type="submit" value="Send me">
+        <input type="reset" value="Reset">
       </form>
     </div>
   </section>
