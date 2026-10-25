@@ -1,0 +1,12 @@
+@import url('https://googleapis.com');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Animations for your Premium Tech Aesthetic */
+@layer base {
+  html {
+    background-color: #060913; /* Fallback matching nthi-space */
+  }
+}
